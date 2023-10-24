@@ -1,0 +1,41 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.info{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.name{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0em;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.spec{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.5);
+;
+}
+.avatar{
+    width: 550.95px;
+    height: 600px;
+}
+.media_box{
+    display: flex;
+    align-self: center;
+}
+.media{
+    opacity: 0.5;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

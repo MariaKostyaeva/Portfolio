@@ -1,0 +1,37 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #7B4AE20D;
+    width: calc(100%/1.12);
+    margin: auto;
+    margin-top: 20px;
+    height: 58px;
+    border-radius: 16px;
+}
+.logo_box{
+    margin: auto 20px;
+}
+.list_box{
+
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.list_item{
+    margin: auto 10px;
+}
+.list_item:last-child{
+    margin-right: 20px;
+}
+.menu_link{
+    color: rgba(255,255,255,0.5);
+    font-size: 18px;
+    line-height: 21.13px;
+}
+.menu_link:hover,.menu_link:focus,.menu_link:active{
+    color: rgba(123, 74, 226, 0.5);
+;
+}
